@@ -13,7 +13,7 @@ import { customerReviews } from '../utils';
 
 const CustomerReviews = () => {
   return (
-    <Container maxWidth='md' sx={{ p: 4 }}>
+    <Container maxWidth='xl'  sx={{ padding:2, display:'flex', flexDirection:'column',  alignItems:{xs:'flex-start', sm:'center'},   }}>
       <Typography align="center" variant="h3" sx={{ mb: 2 }}>Customer Review</Typography>
       <Typography align="center" variant="subtitle1" sx={{ mb: 2 }}>Swipe left or right to see the Review</Typography>
       <Box sx={{width:'67vw', height:'100%'}}  >
@@ -36,13 +36,14 @@ const CustomerReviews = () => {
 
 const ReviewCard = ({ name, avatar, rating, date, comment }) => {
   return (
-    <Card sx={{  height: '100%', border: '2px solid black' }}>
+    <Card sx={{ padding:2,  height: '100%', border: '2px solid black' }}>
       <CardHeader
         avatar={<Avatar src={avatar} />}
         title={name}
         subheader={date}
-        action={<Rating value={rating} readOnly />}
+        
       />
+      <Rating value={rating} readOnly />
       <CardContent>
         <Typography variant="body1" gutterBottom>{comment}</Typography>
       </CardContent>

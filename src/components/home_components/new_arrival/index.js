@@ -16,13 +16,13 @@ const newArrivalItems = [
     title: "Black Tea Collection",
     description:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
-    img: "https://i.ibb.co/chv1Kyp/cup-tea-near-cloth-with-leaves.jpg",
+    img: "https://i.ibb.co/dtnTqFk/cup-tea-near-cloth-with-leaves-min.jpg",
   },
   {
     title: "East Tea Collection",
     description:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
-    img: "https://i.ibb.co/3TTVTnc/teapot-with-apple-copy-space.jpg",
+    img: "https://i.ibb.co/kQ3ZQ1J/teapot-with-apple-copy-space-min.jpg",
   },
 ];
 

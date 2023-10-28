@@ -15,6 +15,7 @@ import {
 import { pages } from "../navbarutils";
 import { theme } from "@/theme/mui_theme";
 import { NavDrawerItem } from "./nav_drawer_item";
+import Link from "next/link";
 
 // Component for each item in the navigation drawer
 
@@ -50,7 +51,7 @@ const NavDrawer = ({ toggleDrawer }) => {
           ) : (
             <React.Fragment key={item.name}>
               <ListItemButton onClick={() => toggleDrawer(false)}>
-                <ListItemText primary={item.name} />
+               <Link href={item.linktext} >  <ListItemText primary={item.name} /></Link>
               </ListItemButton>
               <Divider />
             </React.Fragment>

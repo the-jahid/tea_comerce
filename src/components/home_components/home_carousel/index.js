@@ -14,21 +14,21 @@ import './home.css';
 
 const slides = [
   {
-    imageSrc: 'https://i.ibb.co/djrJJYs/tea-ceremony-concept-close-up-image-process-brewing-tea-using-glass-teapot.jpg',
+    imageSrc: 'https://i.ibb.co/wJj7dp4/tea-ceremony-concept-close-up-image-process-brewing-tea-using-glass-teapot-min.jpg',
     subTitle: 'Special Offer',
     title: 'Sale 70% off',
     description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.',
     buttonText: 'Shop Now',
   },
   {
-    imageSrc: 'https://i.ibb.co/mGPsm6Q/candle-table-hot-drink-relaxation-generated-by-ai.jpg',
+    imageSrc: 'https://i.ibb.co/K99F7q6/high-angle-view-dry-leaves-herb-tea-textured-backdrop-min.jpg',
     subTitle: 'Special Offer',
     title: 'TeaWare Collection From $80',
     description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.',
     buttonText: 'Shop Now',
   },
   {
-    imageSrc: 'https://i.ibb.co/1b43xKt/high-angle-view-dry-leaves-herb-tea-textured-backdrop.jpg',
+    imageSrc: 'https://i.ibb.co/VjS653d/candle-table-hot-drink-relaxation-generated-by-ai-min.jpg',
     subTitle: false,
     title: 'Milancelos',
     description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.',

@@ -78,6 +78,7 @@ const All_ICON_Items = () => {
        PaperProps={{
          style: {
            marginTop: "40px",
+           width:'100%'
          },
        }}
      >
