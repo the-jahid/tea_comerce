@@ -34,7 +34,7 @@ const NewArrival = () => {
         color="black"
         sx={{ textAlign: "center", my: 4 }}
       >
-        New arrivalsss
+        New arrival
       </Typography>
       <Box
         sx={{

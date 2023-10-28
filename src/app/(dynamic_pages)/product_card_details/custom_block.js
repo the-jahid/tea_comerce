@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const ProductCustomBlock = () => {
   return (
-    <Grid container columns={12} >
+    <Grid container columns={12}  >
     {productCustomBlockItems.map((item) => <Grid alignContent='center'  key={item.title} item xs={12} sm={6} md={3} lg={3} >
       
     <Box sx={{display:'flex', flexDirection:'column', alignItems:'center', padding:1}} >

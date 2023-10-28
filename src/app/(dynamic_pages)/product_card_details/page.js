@@ -131,7 +131,7 @@ const ProductCardDetails = ({ searchParams }) => {
   return (
     <Container
       maxWidth="xl"
-      sx={{ height: "100%", width: "100%", margin: "auto", padding: "2rem" }}
+      sx={{ height: "full", width: "100%", margin: "auto", padding: "2rem" }}
     >
       <Grid container columns={12}>
         <Grid item xs={12} sm={12} md={6} lg={6}>
@@ -318,6 +318,7 @@ const ProductCardDetails = ({ searchParams }) => {
       {/* Product Custom Block */}
 
      <ProductCustomBlock />
+   
       
     </Container>
   );
