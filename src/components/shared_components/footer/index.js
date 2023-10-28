@@ -28,7 +28,7 @@ const footerTable = [
 const Footer = () => {
   return (
 
-    <Grid  container justifyContent="center" sx={{ backgroundColor: alpha('#0000FF', 0.2), width:'100%', height:'full', padding:3, marginTop:'10px'}} >
+    <Grid  container justifyContent="center" sx={{ backgroundColor: alpha('#0000FF', 0.2), width:'100%', height:'100%', padding:3, marginTop:'10px'}} >
       <Grid item xs={12} sm={6} md={3}    >
         <Typography variant='h6' >685 Market Street, <br /> San Francisco, <br /> CA 94105, United States</Typography>
         <Typography sx={{marginTop:'10px'}} variant='h6' >Call us: 1-800-000-8910</Typography>
