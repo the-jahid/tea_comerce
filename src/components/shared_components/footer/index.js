@@ -23,8 +23,6 @@ const footerTable = [
 ]
 
 
-
-
 const Footer = () => {
   return (
 
